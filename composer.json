@@ -1,0 +1,23 @@
+{
+    "name": "socketbee/socketbee",
+    "description": "[WIP] SocketBee events emitter for PHP",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SocketBee\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "boulama",
+            "email": "boulama@otimbi.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}

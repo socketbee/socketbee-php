@@ -1,0 +1,3 @@
+## SocketBee PHP library
+
+[WIP]

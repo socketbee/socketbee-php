@@ -16,9 +16,9 @@ class SocketBee
     {
         $this->client = new Client();
         $this->config = array_merge([
-            'protocol' => 'http',
-            'host' => 'localhost',
-            'port' => 3000,
+            'protocol' => 'https',
+            'host' => 'east-1.socket.socketbee.com',
+            'port' => 443,
         ], $config);
         $this->app_id = $app_id;
         $this->headers = [
